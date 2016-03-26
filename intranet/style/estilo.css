@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(../img/fondo6.jpg)
+}
+
+/****************************/
+/*MARCO GLOBAL DE LA PAGINA*/
+/**************************/
+
+#MarcoGlobal{
+	margin:0 auto 0 auto;
+	width:1500px;
+	height:auto;
+	overflow:hidden;
+	background:#FFF;
+	padding:3px 3px 3px 3px;
+}
+
+/*******/
+/*HEAD*/
+/*****/
+
+
+#Marcohead{
+	width:1500px;
+	height:150px;
+	background-image:url()
+}
+
+
+#imagen{
+	width:1500px;
+	height:200px;
+	float:left;
+
+}
+/*****************/
+/*MENU PRINCIPAL*/
+/***************/
+
+#MarcoMenu{
+	width:1500px;
+	height:15px;
+	margin: 5px 0px 0px 0px;
+	text-align: center;
+}
+
+/**************************************************************************/
+/* Marco central para agrupar el contenido izquierdo, derecho y contenido*/
+/************************************************************************/
+
+#Marcocontenedor{
+	margin: 7px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 1500px;
+	height:auto;
+	background-image:url(../images/login-box-backg2.png);
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	text-align:center;
+		
+	
+	
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #666666;
+  font: normal 11px verdana, arial, helvetica, sans-serif;
+  color: #363636;
+  background: #f6f6f6;
+  text-align:center;
+  }
+  
+  

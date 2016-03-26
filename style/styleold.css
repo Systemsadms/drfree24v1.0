@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(../img/fondotest.png);
+	background-repeat:repeat-x;
+}
+
+/****************************/
+/*MARCO GLOBAL DE LA PAGINA*/
+/**************************/
+
+#MarcoGlobal{
+	margin:0 auto 0 auto;
+	width:980px;
+	height:auto;
+	overflow:hidden;
+	background-image:url(../img/fondotest2.png);
+	background-repeat:repeat-x;
+	padding:3px 3px 3px 3px;
+}
+
+/*******/
+/*HEAD*/
+/*****/
+
+
+#Marcobusqueda{
+	width:980px;
+	height:35px;
+	color:#FFF;
+
+	
+}
+
+#Marcomenu{
+	width:980px;
+	height:35px;
+	background-color:#000; 
+	
+}
+
+
+#Marcobanner{
+	width:980px;
+	height:auto;
+	margin: 20px 0px 0px 0px;
+	float:left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#666;
+
+}
+
+#Marcobanner2{
+	width:980px;
+	height:auto;
+	margin: 20px 0px 0px 0px;
+	float:left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#666;
+
+}
+
+#Marcologin{
+	width:980px;
+	height:30px;
+	margin: 20px 0px 0px 0px;
+	float:left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#666;
+
+}
+
+
+#Marcobannergiftcard{
+	width:980px;
+	height:400px;
+	margin: 20px 0px 0px 0px;
+	float:left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#666;
+
+}
+/*****************/
+/*  CONTENIDO   */
+/***************/
+
+
+#marcocontenido1{
+	margin: 15px 0px 0px 0px;
+	width: 980px;
+	height: 350px;
+	background-color:#fff;
+	float:left;
+	
+}
+
+#marcocontenidogifrcard{
+	margin: 15px 0px 0px 0px;
+	width: 980px;
+	height: auto;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+	background-color:#fff;
+	float:left;
+	
+}
+
+#marcocontenidoregistro{
+	margin: 15px 0px 0px 0px;
+	width: 980px;
+	height: auto;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+	background-color:#fff;
+	float:left;
+	
+}
+#content{
+	
+	background-image:url(../img/sombra2.png);
+	width: 230px;
+	height: 350px;
+	
+	}
+#content2{
+	
+	background-image:url(../img/sombracomprausa.png);
+	width: 475px;
+	height: 500px;
+	
+	}
+#content3{
+	
+	background-image:url(../img/sombra4.png);
+	width: 230px;
+	height: 200px;
+	
+	}	
+
+#marcocontenido2{
+	margin: 15px 0px 0px 0px;
+	width: 985px;
+	height: 500px;
+	background-color:#fff;
+	float:left;
+	
+}
+
+#contenidocompraenusa1{
+	margin: 15px 15px 0px 0px;
+	width: 730px;
+	height: auto;
+	background-image:url(../img/sombracompra.png);
+	float:left;
+	
+}
+#contenidocompraenusa2{
+	margin: 15px 0px 0px 0px;
+	width: 235px;
+	height: 655px;
+	float:left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	
+}
+
+#contenidocontacto{
+	margin: 15px 15px 0px 0px;
+	width: 730px;
+	height: 470px;
+	background-image:url(../img/sombracompra.png);
+	float:left;
+	
+}
+#contenidocontacto2{
+	margin: 15px 0px 0px 0px;
+	width: 235px;
+	height: 470px;
+	float:left;
+	
+	
+	
+}
+
+#contenidomisionvision{
+	margin: 15px 0px 0px 0px;
+	width: 980px;
+	height: autox;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#333;
+	float:left;
+	
+	
+	
+}
+
+#marcoredsocial{
+	margin: 5px 0px 0px 0px;
+	width: 980px;
+	height: 65px;
+	float:left;
+	background-image:url(../img/sombra.jpg);
+	vertical-align: center;
+	text-align:center;
+	
+	
+}
+
+
+#marcodireccion{
+	margin: 20px 0px 0px 0px;
+	width: 980px;
+	height: 50px;
+	background-color:#FFF;
+	float:left;
+	text-align:center;
+	font-size:11px;
+	font-family:Verdana, Geneva, sans-serif;
+	
+}
+
+.titulo{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color:#666;
+	}
+	
+.titulo2{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	color:#666;
+}
+
+.texto{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	color:#666;
+	}	
+	
+	
+#intranet{
+	margin: 15px 0px 0px 0px;
+	width: 579px;
+	height: 299px;
+	background-image:url(../img/intranet.jpg);
+	
+}
+
+#tipodeletra
+	{
+	 font-family:Verdana, Geneva, sans-serif;
+	 font-size: 13px;
+	 
+	}	
+#tipodeletraserch
+	{
+	 font-family:Verdana, Geneva, sans-serif;
+	 font-size: 15px;
+	 
+	}	
+	
+						#tipodeletraserch a:hover {
+						color:#C00;
+						}
+						#tipodeletraserch a {
+						color:#999
+						}
+						#tipodeletraserch a:active {
+						color: #3F0;
+						}
+		
+#titulo
+{
+	width:980px;
+	height:auto;
+	margin: 20px 0px 0px 0px;
+	float:left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#666;
+	text-align:center;	
+}	
+
+
+#galeria
+{
+	float:left;
+
+	
+	}	

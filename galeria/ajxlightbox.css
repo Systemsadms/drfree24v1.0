@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*
+ Ajatix Lightbox
+ Copyright (C) 2010 Ajatix. All rights reserved.
+ http://www.ajatix.com
+ Unregistered copy.
+ Any usage except for the purpose of evaluation is strictly prohibited.
+*/
+.AJXLightboxOCRJCfB ul {list-style-type:none;margin:0;padding:0;}
+.AJXLightboxOCRJCfB li {display:block;float:left;}
+.AJXLightboxOCRJCfB div,.AJXLightboxOCRJCfB li {position:relative;width:110px;height:85px;margin:8px;border:solid 3px #ffffff;overflow:hidden;}
+html>/**/body .AJXLightboxOCRJCfB div,html>/**/body .AJXLightboxOCRJCfB li {display:table;text-align:center;}
+.AJXLightboxOCRJCfB .ajxover {border-color:#a0a0a0;}
+.AJXLightboxOCRJCfB a {position:absolute;left:50%;top:50%;}
+html>/**/body .AJXLightboxOCRJCfB a {display:table-cell;position:static;vertical-align:middle;}
+.AJXLightboxOCRJCfB img {position:relative;left:-50%;top:-50%;border:0;}
+html>/**/body .AJXLightboxOCRJCfB img {position:static;}
+.AJXLightboxOCRJCfB br {clear:both;height:0;font-size:1px;line-height:0px;}
+#AJXLightboxOCRJCfB_overlay {position:fixed;left:0;top:0;width:100%;height:100%;z-index:2000;background:#ffffff;display:none;}
+#AJXLightboxOCRJCfB {position:absolute;z-index:2000;display:none;text-align:left;}
+#AJXLightboxOCRJCfB_outer {position:absolute;width:100%;height:100%;background-color:#ffffff;}
+#AJXLightboxOCRJCfB_inner {position:absolute;width:100%;}
+#AJXLightboxOCRJCfB_img, #AJXLightboxOCRJCfB_cross_img {position:absolute;width:100%;height:100%;}
+#AJXLightboxOCRJCfB_outline {position:absolute;left:0;top:0;width:100%;height:100%;}
+#AJXLightboxOCRJCfB_outline_n {position:absolute;left:0;top:-24px;width:100%;height:24px;background:url(ajxlightbox_files/outline.png);}
+#AJXLightboxOCRJCfB_outline_s {position:absolute;left:0;bottom:-24px;width:100%;height:24px;background:url(ajxlightbox_files/outline.png) 0 -24px;}
+#AJXLightboxOCRJCfB_outline_sw {position:absolute;left:-24px;bottom:-24px;width:24px;height:24px;background:url(ajxlightbox_files/outline.png) 0 -48px;}
+#AJXLightboxOCRJCfB_outline_se {position:absolute;right:-24px;bottom:-24px;width:24px;height:24px;background:url(ajxlightbox_files/outline.png) -24px -48px;}
+#AJXLightboxOCRJCfB_outline_w {position:absolute;left:-24px;top:-24px;width:24px;height:100%;padding-top:24px;background:url(ajxlightbox_files/outline.png) 0 -72px;}
+#AJXLightboxOCRJCfB_outline_e {position:absolute;right:-24px;top:-24px;width:24px;height:100%;padding-top:24px;background:url(ajxlightbox_files/outline.png) -24px -72px;}
+#AJXLightboxOCRJCfB_prev {position:absolute;width:30%;height:100%;left:0;background-image:url("data:image/gif;base64,AAAA");cursor: pointer;display:none;}
+#AJXLightboxOCRJCfB_prev_button {position:absolute;left:0;top:50%;width:22px;height:29px;margin-top:-14px;background:url(ajxlightbox_files/previous.png);display:none;}
+#AJXLightboxOCRJCfB_next {position:absolute;width:30%;height:100%;right:0;background-image:url("data:image/gif;base64,AAAA");cursor: pointer;display:none;}
+#AJXLightboxOCRJCfB_next_button {position:absolute;right:0;top:50%;width:22px;height:29px;margin-top:-14px;background:url(ajxlightbox_files/next.png);display:none;}
+#AJXLightboxOCRJCfB_loading {position:absolute;width:100%;height:100%;background:url(ajxlightbox_files/loading.gif) no-repeat center center;}
+#AJXLightboxOCRJCfB_close {position:absolute;right:-8px;top:-9px;width:17px;height:17px;background:url(ajxlightbox_files/close.png);cursor:pointer;display:none;}
+
+/*
+{"background":"#FFFFFF","cssclass":{"bgcolor":"#ffffff","caption":{"enabled":false},"closebutton":true,"closebuttonright":2,"closebuttontop":1,"closeimage":{"base64":"iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn\/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAAgklEQVR42uSTwQ2DMBRD38+BbToI03QutmAAeuo2XF5PSAiRfNr0hm+JZMt2nFClE4U\/4A4iEUFEpHeXnGykGrkpsn\/1vUBtDVUnR0JrTiWLUjtfKjaLdhRZs0jZzyjA64x81kmr2Kl3bKEOwAI8eha7AiPw\/tnKllUd1Kc6+yU+AwBa8W2T2b0WDQAAAABJRU5ErkJggg==","fileextension":".png"},"closeoncontentclick":true,"closeonoverlayclick":true,"loadingimage":{"base64":"R0lGODlhEAAQALMMAKqooJGOhp2bk7e1rZ2bkre1rJCPhqqon8PBudDOxXd1bISCef\/\/\/wAAAAAAAAAAACH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFAAAMACwAAAAAEAAQAAAET5DJyYyhmAZ7sxQEs1nMsmACGJKmSaVEOLXnK1PuBADepCiMg\/DQ+\/2GRI8RKOxJfpTCIJNIYArS6aRajWYZCASDa41Ow+Fx2YMWOyfpTAQAIfkEBQAADAAsAAAAABAAEAAABE6QyckEoZgKe7MEQMUxhoEd6FFdQWlOqTq15SlT9VQM3rQsjMKO5\/n9hANixgjc9SQ\/CgKRUSgw0ynFapVmGYkEg3v1gsPibg8tfk7CnggAIfkEBQAADAAsAAAAABAAEAAABE2QycnOoZjaA\/IsRWV1goCBoMiUJTW8A0XMBPZmM4Ug3hQEjN2uZygahDyP0RBMEpmTRCKzWGCkUkq1SsFOFQrG1tr9gsPc3jnco4A9EQAh+QQFAAAMACwAAAAAEAAQAAAETpDJyUqhmFqbJ0LMIA7McWDfF5LmAVApOLUvLFMmlSTdJAiM3a73+wl5HYKSEET2lBSFIhMIYKRSimFriGIZiwWD2\/WCw+Jt7xxeU9qZCAAh+QQFAAAMACwAAAAAEAAQAAAETZDJyRCimFqbZ0rVxgwF9n3hSJbeSQ2rCWIkpSjddBzMfee7nQ\/XCfJ+OQYAQFksMgQBxumkEKLSCfVpMDCugqyW2w18xZmuwZycdDsRACH5BAUAAAwALAAAAAAQABAAAARNkMnJUqKYWpunUtXGIAj2feFIlt5JrWybkdSydNNQMLaND7pC79YBFnY+HENHMRgyhwPGaQhQotGm00oQMLBSLYPQ9QIASrLAq5x0OxEAIfkEBQAADAAsAAAAABAAEAAABE2QycmUopham+da1cYkCfZ94UiW3kmtbJuRlGF0E4Iwto3rut6tA9wFAjiJjkIgZAYDTLNJgUIpgqyAcTgwCuACJssAdL3gpLmbpLAzEQA7","fileextension":".gif"},"navigationtheme":"White Rounded","nextimage":{"base64":"iVBORw0KGgoAAAANSUhEUgAAABYAAAAdCAYAAACuc5z4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn\/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAAuklEQVR42uzWPQ6CQBCG4XeI4RKewcSCxiPYm3gDa69l7xEs6TyDN7DR5rNZEprN\/rBjYfwawhQPwzABTBIhPXACDsAunFdnFY5r4ApsaRST1AMjsKFhunD7TdEJPuIQk\/Ra+qBisDw67nDKD8Fmhpll14s7jiEpPArPl2WOxOpFHS\/Bk6OoxYtmnHORLLgWTa5bLVo845z6\/yX0XfjpBd+94IvXx9Ttv+IN7FuPZNqKBzAAZ+DWAv4MAKwUSueljMVJAAAAAElFTkSuQmCC","fileextension":".png"},"outline":true,"outlinecolor":"#ffffff","outlineradius":6,"outlinerounded":true,"outlineshadow":true,"outlineshadowoffsetx":1,"outlineshadowoffsety":2,"outlineshadowopacity":90,"outlineshadowsize":9,"outlinewidth":10,"overlay":true,"overlaycolor":"#ffffff","overlayopacity":40,"previousimage":{"base64":"iVBORw0KGgoAAAANSUhEUgAAABYAAAAdCAYAAACuc5z4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn\/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAAo0lEQVR42uzWsQ3CMBAF0OfMlCWQWAWJedgAiTEi0SIxQzagSmMaihRxsIivAPE7n3SvOJ8sp5xzti0Trrjg9DpLDeB5bthjbA3DHX0EDIcoeIiCpyhYJyg\/CKeUpJSq61VwqXENfAvPm+eLU6pXwVvRRbgFugjXYB\/PuAVevLyt+Oq6lWZZM+P\/I\/S98CMKvkfB57B\/RReA7jC1ggcc0WOE5wBZUl8oJ\/x6DgAAAABJRU5ErkJggg==","fileextension":".png"},"scalelimit":60,"thumbnails":{"background":false,"bgcolor":"#cccccc","bgmocolor":"#aaaaaa","border":false,"bordercolor":"#ffffff","bordermocolor":"#c0c0c0","margin":8,"maxheight":75,"maxwidth":100,"outerborder":true,"outerbordercolor":"#ffffff","outerbordermocolor":"#a0a0a0","outerbox":true,"outerheight":85,"outerwidth":110},"zindex":2000},"id":"AJXLightboxOCRJCfB","prjfile":false,"product":{"Name":"AJXLightbox","Version":"1.2.4.0"}}
+*/
